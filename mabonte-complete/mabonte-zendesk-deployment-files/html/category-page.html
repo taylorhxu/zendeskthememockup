@@ -1,0 +1,60 @@
+<section class="category-wrapper">
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+            <!-- Zendesk's component to show breadcrumbs -->
+            {{breadcrumbs}}
+         </div>
+         <!-- Zendesk's component to show the Category's Title -->
+         <div class="left-col col-xs-12 col-sm-4 col-md-3">
+            <ul class="list-mains hc-category-list"></ul>
+         </div>
+         <div class="right-col col-xs-12 col-sm-8 col-md-9">
+            <h1 class="title">{{category.name}}</h1>
+            <p>{{category.description}}</p>
+            <!-- Zendesk's component to show/display currently view category's all sections with their articles -->
+            {{#if category.sections}}
+            <div class="section-tree">
+               {{#each sections}}
+               <section class="section col-sm-6 col-xs-12">
+                  <h3>
+                     {{#if internal}}
+                     <span class="visibility-internal" data-title="{{t 'internal'}}">
+                     <span class="visibility-internal-icon"></span>
+                     </span>
+                     {{/if}}
+                     <a href="{{url}}">{{name}}</a>
+                  </h3>
+                  {{#if articles}}
+                  <ul class="article-list">
+                     {{#each articles}}
+                     <li {{#if promoted}} class="article-promoted" {{/if}} >
+                     {{#if promoted}}
+                     <span data-title="{{t 'promoted'}}">★</span>
+                     {{/if}}
+                     <a href="{{url}}">{{title}}</a>
+                     </li>
+                     {{/each}}
+                  </ul>
+                  {{#if more_articles}}
+                  <a href="{{url}}" class="see-all-articles">
+                  {{t 'show_all_articles' count=article_count}}
+                  </a>
+                  {{/if}}
+                  {{else}}
+                  <i class="section-empty">
+                  <a href="{{url}}">{{t 'empty'}}</a>
+                  </i>
+                  {{/if}}
+               </section>
+               {{/each}}
+            </div>
+            {{else}}
+            <i class="category-empty">
+            <a href="{{category.url}}">{{t 'empty'}}</a>
+            </i>
+            {{/if}}
+         </div>
+      </div>
+   </div>
+</section>

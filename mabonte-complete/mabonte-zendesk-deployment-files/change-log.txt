@@ -1,0 +1,31 @@
+Version v2.1:
+=============
+
+New Features/Updates
+
+* Home Page: Update home page to dynamically pull all the categories and show with icons.
+* Category, Section and Article pages :Added sidebar navigation to list categories.
+* Update the layout of submit a request page.
+* Update the user manual.
+
+
+Bug Fixes:
+==========
+
+* Change fonts using Zendesk appearance option.
+
+
+Version v2.0:
+=============
+
+
+New Features:
+=====================
+
+* Enable community v2 support
+* Added with more template for community v2 support. 
+
+Bug Fixes:
+==========
+
+Enable the sidebar navigation on article page to automatically pull the category and can be arranged using arrange content.

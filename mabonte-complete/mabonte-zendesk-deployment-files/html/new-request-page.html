@@ -1,0 +1,18 @@
+<div class="container">
+  {{breadcrumbs}} 
+  <section class="main-column">
+    <h3 class="submit-request-heading">
+      {{t 'submit_a_request'}}{{#if parent}}
+      <span class="follow-up-hint">
+        {{follow_up}}
+      </span>
+    {{/if}}
+    </h3>
+    <div class="form">
+      <!-- Zendesk's component to show/display the Submit A Request Form -->
+      {{request_form}}
+    </div>
+  </section>
+</div>
+<!-- Zendesk's component to show/display the Zendek's Chat Component (if enabled from Zendesk's Admin Section) -->
+{{chat}}

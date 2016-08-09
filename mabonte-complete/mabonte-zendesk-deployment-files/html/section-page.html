@@ -1,0 +1,44 @@
+<div class="container">
+   <div class="section-template row">
+      <div class="col-xs-12">
+         <!-- Zendesk's component to show breadcrumbs -->
+         {{breadcrumbs}}
+      </div>
+      <div class="left-col col-xs-12 col-sm-4 col-md-3">
+         <ul class="list-mains hc-category-list"></ul>
+      </div>
+      <div class="right-col col-xs-12 col-sm-8 col-md-9">
+         <div class="section-tree">
+            <section class="section">
+               <h1 class="title">
+                  <!-- Zendesk's component to show/display the Section Title -->
+                  {{#if section.internal}}
+                  <span class="visibility-internal" data-title="{{t 'internal'}}">
+                  <span class="visibility-internal-icon"></span>
+                  </span>
+                  {{/if}} {{section.name}}
+                  <p class="section-description">{{section.description}}</p>
+               </h1>
+               <!-- Zendesk's component to show/display the Display Section's articles list -->
+               {{#if section.articles}}
+               <ul class="article-list">
+                  {{#each section.articles}}
+                  <li {{#if promoted}} class="article-promoted" {{/if}}>
+                  {{#if promoted}}
+                  <span data-title="{{t 'promoted'}}">★</span>
+                  {{/if}}
+                  <a href="{{url}}">{{title}}</a>
+                  </li>
+                  {{/each}}
+               </ul>
+               {{else}}
+               <i class="section-empty">
+               <a href="{{section.url}}">{{t 'empty'}}</a>
+               </i>
+               {{/if}}
+               {{pagination}}
+            </section>
+         </div>
+      </div>
+   </div>
+</div>

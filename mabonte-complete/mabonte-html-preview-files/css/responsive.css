@@ -1,0 +1,286 @@
+/*
+  Template Name: Mabonte
+  Version: 1.0
+  Author: Allies Interactive
+  Website: http://www.diziana.com/
+  Corporate Website : http://www.diziana.com
+  Contact: support@diziana.com
+  Follow: www.twitter.com/dizianaEngage
+  Like: www.facebook.com/Diziana.Engage
+  Purchase: Diziana.com
+  License: You must have a valid license purchased only from
+  diziana.com in order to legally use the theme for your project.
+  Copyright: © 2015 Allies Interactive Services Pvt. Ltd. All Rights Reserved
+*/
+    @media only screen and (min-width : 320px) and (max-width : 480px) {
+        .wrapper-mains > h1 {
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 500;
+        }
+
+        .home-wrapper ul > li {
+            border-bottom: 1px solid #e5e5e5;
+            border-right: 0 solid #e5e5e5;
+            float: left;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        header > .header-inner > .logo > a > img
+        {
+            width:200px;
+        }
+
+        form.search
+        {
+            padding:0px 15px;
+        }
+
+        .wrapper-home > .container > .category-tree > h2
+        {
+            font-size:1em;
+        }
+        .wrapper-home > .container > .category-tree > ul > li > a {
+        color: #686868;
+        font-size: 0.95em;
+        }
+        .wrapper-mains > form > input[type="search"]
+        {
+            font-size:1.3em;
+        }
+
+        /* Footer section starts */
+        .footer-copyright p
+        {
+            text-align: center;
+        }
+        .search-results {padding-left: 15px;}
+
+        /* Footer section ends */
+        .section-wrapper h1 {
+            border-bottom: 1px solid #000101;
+            color: #2c2c2c;
+            font-size: 2em;
+            font-weight: 300;
+            margin-bottom: 25px;
+            margin-top: 10px;
+            padding-bottom: 25px;
+        }
+        .section-wrapper ul > li > a {
+            color: #7d7d7d;
+            font-size: 0.95em;
+            font-weight: 400;
+        }
+        .wrapper-mains > h1 {
+            color: #fff;
+            font-size: 2.1em;
+            font-weight: 500;
+            padding: 0 15px;
+        }
+        .breadcrumbs .breadcrumb > li > a {
+            color: #2c2c2c;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        /* Category page starts */
+        .category-wrapper ul > li.category > ul > li.section {
+            border-bottom: 1px solid #000101;
+            float: left;
+            margin: 20px 0;
+            min-height: 320px;
+            padding: 0;
+            width: 100%;
+        }
+        .category-wrapper ul > li > h1 {
+            font-size: 1.8em;
+            font-weight: 300;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            padding-bottom: 20px;
+        }
+        .category-wrapper ul > li.section > .article-list > li > a {
+            color: #7d7d7d;
+            font-size: 0.9em;
+        }
+        .category-wrapper ul > li.category > ul > li.section {
+            border-bottom: 1px solid #000101;
+            float: left;
+            margin: 10px 0;
+            min-height: 250px;
+            padding: 0;
+            width: 100%;
+        }
+        /* Category page ends */
+    }
+
+    @media only screen and (min-width : 481px) and (max-width : 768px) {  
+        .home-wrapper ul > li {
+            border-right: 1px solid #e5e5e5;
+            float: left;
+            padding: 0 5px;
+            width: 20%;
+        }
+
+        .home-wrapper .services-wrapper > li > a > p {
+            font-size: 1em;
+        }
+
+        .home-wrapper .services-wrapper > li > a > span {
+            font-size: 0.9em;
+        }
+
+        footer.footer h3 {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        footer > .footer-inner .social-share > ul > li > a {
+            height: 27px;
+            overflow: hidden;
+            text-indent: 999px;
+            width: 28px;
+        }
+
+        footer > .footer-inner .social-share > ul > li .twitter {
+            background: url("../images/social-share-icon.png") no-repeat scroll -35px 0 rgba(0, 0, 0, 0);
+        }
+
+        footer > .footer-inner .social-share > ul > li .facebook {
+        background: url("../images/social-share-icon.png") no-repeat scroll -70px 0 rgba(0, 0, 0, 0);
+        }
+
+        footer > .footer-inner .social-share > ul > li .youtube {
+            background: url("../images/social-share-icon.png") no-repeat scroll -105px 0 rgba(0, 0, 0, 0);
+        }
+
+        footer > .footer-inner .social-share > ul > li .linkedin {
+            background: url("../images/social-share-icon.png") no-repeat scroll -140px 0 rgba(0, 0, 0, 0);
+        }
+
+        .category-wrapper ul > li.section > .article-list > li > a {
+        color: #7d7d7d;
+        font-size: 1em;
+        }
+
+        /* Section page starts */
+
+        .section-wrapper ul > li > a {
+            color: #7d7d7d;
+            font-size: 1em;
+            font-weight: 400;
+        }
+
+        /* Section page ends */
+
+    }
+
+
+    @media only screen and (min-width : 1024px) and (max-width : 2100px) {   
+        nav.primary-menu > .main-menu > ul.primary-menu-list-wrap {
+        float: right;
+        padding: 20px 30px 20px 0;
+        }
+    }
+
+
+    @media only screen and (min-width : 992px) and (max-width : 1199px) {  
+ 
+    }
+
+
+    @media only screen and (min-width : 481px) and (max-width : 767px) {   
+ 
+    }
+
+
+    @media only screen and (min-width : 200px) and (max-width : 319px) { 
+         .wrapper-mains > h1 {
+            color: #fff;
+            font-size: 2em;
+            font-weight: 500;
+        }
+
+    }
+
+    @media only screen and (min-width : 220px) and (max-width : 767px) {
+        .navbar-toggle {
+            background-color: transparent;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            float: right;
+            margin-bottom: 8px;
+            margin-right: 0;
+            margin-top: 8px;
+            padding: 9px 10px;
+            position: relative;
+        }
+        .logo > nav.user-nav {
+            display: none;
+            float: left;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            vertical-align: middle;
+        }
+        .header-right {
+            width: 100%;
+        }
+        header.header > .header-inner .logo {
+            width: 100%;
+        }
+        nav.primary-menu > .main-menu > ul.primary-menu-list-wrap {
+            display: inline;
+            float: none;
+            padding: 0;
+            width: 100%;
+        }
+        .wrapper-column .left-col {
+            float: left;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+        }
+        .wrapper-column .right-col {
+            float: left;
+            padding-top: 20px;
+            width: 100%;
+        }
+        .wrapper-column .list-mains {
+            list-style-type: none;
+            width: 100%;
+        }
+        .wrapper-column .left-col > ul > li > a {
+            font-size: 1em;
+            font-weight: 500;
+        }
+        .wrapper-column .right-col > h1 {
+            border-bottom: 2px solid #666767;
+            color: #2c2c2c;
+            font-size: 1.8em;
+        }
+        .wrapper-column .right-col > h2 {
+            color: #2c2c2c;
+            font-size: 1.5em;
+        }
+        .wrapper-column .right-col > .interests > li > a {
+            color: #2c2c2c;
+            font-size: 1em;
+        }
+    }
+
+
+    @media (device-width:1024px){
+ 
+
+    }
+
+
+    @media (device-width:768px){
+        .wrapper-mains > h1 {
+            color: #fff;
+            font-size: 4em;
+            font-weight: 600;
+        }
+    }    

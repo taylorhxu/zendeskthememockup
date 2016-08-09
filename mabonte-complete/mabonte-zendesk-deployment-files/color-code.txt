@@ -1,0 +1,5 @@
+color 1 : Header Background Color and Search Button bg color (color-code: #3976b7)
+color 2 : Footer Background Color (color-code: #2e2e2e)
+color 3 : Copyright area (color-code: #232222)
+color 4 : links Color (color-code: #686868)
+color 5 : Body BG Color  (color-code: #ffffff)

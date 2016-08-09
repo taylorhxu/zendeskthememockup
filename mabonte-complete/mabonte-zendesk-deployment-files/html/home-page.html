@@ -1,0 +1,34 @@
+<section class="home-wrapper category-list-section section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="hc-category-list text-center"></ul>
+      </div>  
+    </div>  
+  </div>
+</section>
+<section class="wrapper-home section-padding">
+  <div class="container">
+    <div class="category-tree">
+      <h3 class="articles-title"><span>Popular Help Articles</span></h3>
+      <!-- Zendesk's articles Component display recently viewed articles -->
+      {{recent_articles}}
+    </div>
+    <div class="category-tree">
+      <h3 class="articles-title"><span class="promoted-head">Promoted Articles</span></h3>
+      <!-- Zendesk's articles Component display promoted articles -->
+      {{#if promoted_articles}}
+       <section class="promoted-articles">
+          <h3>{{t 'promoted_articles'}}</h3>
+          <ul>
+             {{#each promoted_articles}}
+             <li>
+                <a href="{{url}}">{{title}}</a>
+             </li>
+             {{/each}}
+          </ul>
+       </section>
+       {{/if}}
+    </div>
+  </div>
+</section>
